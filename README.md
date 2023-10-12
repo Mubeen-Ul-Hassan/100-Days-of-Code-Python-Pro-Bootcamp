@@ -1,4 +1,4 @@
-![alt text]([https://url/to/image.png](https://thumbor.cdn.classpert.com/8T69T8pHfo8HL9vZiUp9eCWyUdo=/768x0/https%3A%2F%2Fcdn.classpert.com%2Fuploads%2Fpost__python-blog-703696e4712ba9a349e303ed2dfb377b.png))
+<img src ="banner.png"></img>
 **100 Days of Coding Problems** 🐍
 
 This repository contains 100 coding problems that will take you from novice to pro. The problems are taken from the Udemy course "100 Days of Code: The Complete Python Pro Bootcamp for 2023" by Dr. Angela Yu.
