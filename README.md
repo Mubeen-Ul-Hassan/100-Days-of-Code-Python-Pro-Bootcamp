@@ -1,4 +1,6 @@
 <img src ="banner.png"></img>
+<br>
+<br>
 **100 Days of Coding Problems** 🐍
 
 This repository contains 100 coding problems that will take you from novice to pro. The problems are taken from the Udemy course "100 Days of Code: The Complete Python Pro Bootcamp for 2023" by Dr. Angela Yu.
