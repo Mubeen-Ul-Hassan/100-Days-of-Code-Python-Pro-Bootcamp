@@ -1,4 +1,5 @@
 **/.venv/
+**/.env
 .idea/
 Day 22 - Build Pong (The Famous Arcade Game)/__pycache__
 Day 21 - Snake Game Part_02/__pycache__
