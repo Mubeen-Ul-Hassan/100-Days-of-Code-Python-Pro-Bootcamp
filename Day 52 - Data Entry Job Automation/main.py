@@ -18,9 +18,12 @@ for card in property_cards:
 
 
     link = card.find('a', class_='StyledPropertyCardDataArea-anchor')
-    address = card.find('address', attr={"data-test" : "property-card-addr"})
-    price = card.find('span', class_="PropertyCardWrapper__StyledPriceLine").text
+    raw_address = card.find('address').text
+    raw_price = card.find('span', class_="PropertyCardWrapper__StyledPriceLine").text
 
-    property_details.append([link['href'], address, price])
+    address = raw_address.strip()
+    price = raw_price.replace('+/mo', '')
+
+    property_details.append([address, price, link['href']])
 
 print(property_details[0])
