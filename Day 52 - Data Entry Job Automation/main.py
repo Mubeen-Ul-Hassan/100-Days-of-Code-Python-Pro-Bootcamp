@@ -25,5 +25,3 @@ for card in property_cards:
     price = raw_price.replace('+/mo', '')
 
     property_details.append([address, price, link['href']])
-
-print(property_details[0])
